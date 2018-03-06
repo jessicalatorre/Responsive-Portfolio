@@ -19,16 +19,14 @@
     width: 960px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(grunge-wall.png);
-    background-color: #ffffff;
     line-height: 30px;
   }
     /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 
   .box-header {
-      background-color: #ffffff;
-      border-color: #cccccc;
-      font-family: 'Georgia', Times, Times New Roman, serif;
-      width: 500px;
+      width: 400px;
+      float: left;
+      margin-left: 60px;
   }
   
   h1 {
@@ -47,10 +45,8 @@
   }
 
   #logo {
-  float: left;
   background-color: #4aaaa5;
   height: 100px;
-  width: 330px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
   font-size: 35px;
@@ -65,16 +61,17 @@
 /* since a link was embedded in the same line as --& before--my id="log">Jessica R. La Torre</a> */
 
 
-/* nav {
+nav {
   float: right;
   text-align:top;
-  width: 100px;
-} */
+  width: 400px;
+}
 
 nav a {
   text-decoration: none;
-  color:#666666; 
+  color:white; 
   font-size: 20px;
+  color: black;
   width: 100px;
 }
 
@@ -98,11 +95,8 @@ p {
 }
 
 #masterhead {
-  background-color:lightgrey;
   height: 100px;
   width: 100%;
-  border-color: #cccccc;
-  padding-left: 140px;
   clear: both;
 }
 
@@ -111,22 +105,22 @@ p {
   color:#cccccc;
   font-family: Arial, Helvetica, sans-serif;
   display: inline;
-  word-spacing: 30px;
-  padding-left: 100px;
-  margin-left: 200px;
-  margin-top: 30px;
-  margin-right: 30px;
-  width: 300px;
+  word-spacing: 5px;
+  text-align: center;
+  padding: 35px;
 }
 
 #overall-container {
   float: left;
   width: 100%;
-  margin: 0 auto;
+  height: 700px;
+  margin-top: 90px;
   padding-left: 140px;
   padding-top: 40px;
   clear: both;
   background-color: white;
+  position: relative;
+  bottom: 80px;
 }
 
 .main-container {
@@ -164,10 +158,9 @@ p {
   border: solid 5px lightgrey;
  }
 
- }
 .auth-image1 {
  float: left;
- width:100px;
+ width:275px;
  border:#dddddd;
 }
 
@@ -219,8 +212,6 @@ p {
    align-content: center;
    border-top: 20px;
    border-color: red;
-
-
  }   
 
  .work {
@@ -233,7 +224,7 @@ p {
  }
 
  ul {
-   color: grey;
+   color:black;
    line-height: 40px;
  }
 
@@ -272,7 +263,6 @@ footer {
   width: 100%;
 }
 .box-header{
-  background-color: darkgray;
   width: 100%;
   color: white;
   clear: both;
@@ -314,9 +304,7 @@ h2 {
 }
 
 #overall-container {
-  padding-left: none;
   clear: both;
-  padding-left: 100px;
 }
 
 }
@@ -339,46 +327,38 @@ h2 {
    width: 100%;
   position: static;
  }
-
  #logo {
    margin-left: 10px;
+   height: 100px;
  }
+ #connect {
+   background-color: lightslategray;
+}
 
- .menu {
-   width: 30%;
-   height: 50px;
-   float: right;
-   padding: 10px;
-  background-color: lightgray;
+nav {
+  position: relative;
   margin-right: 200px;
-  word-spacing: none;
-  text-align: center;
-  padding-top: 30px;
-  background-color: teal;
 }
 
 nav a {
   margin: none;
   font-size: 15px;
   word-spacing: 2px;
-  color: #dddddd;
+  color: black;
 }
 
-}
 #masterhead {
   width: 800px;
+  display: flex;
 }
-
 h1 {
   padding-top: 1px;
   width: 200px;
   margin-left: 10px;
 }
-
 .bio-image {
   margin-left: 5px;
 }
-
 .main-container {
   width: 500px;
   height: 400px;
@@ -389,13 +369,49 @@ h1 {
   padding-left: 70px;
   padding-right: 40px;
 }
-
 #connect {
   margin-right: 120px;
+  position: relative;
+  right: 130px;
  }
-
 p {
  position: relative;
 }
+/* 
+.master-work {
+  background-color:red;
+  height: 600px;
+} */
+
+/* .work {
+  width: 200px;
+}
+
+.auth-image1 {
+  float: left;
+  width:200px;
+  border:#dddddd;
+ }
+ 
+ .auth-image2 {
+   float: left;
+   width:200px;
+   border:#dddddd;
+  }
+  .auth-image3 {
+   float: left;
+   width:200px;
+   border:#dddddd;
+  }
+  .auth-image4 {
+   float: left;
+   width:200px;
+   border:#dddddd;
+  }
+  .auth-image5 {
+   float: left;
+   width:200px;
+   border:#dddddd;
+  } */
 
 }
