@@ -27,6 +27,7 @@
       width: 400px;
       float: left;
       margin-left: 60px;
+      background-clip: teal;
   }
   
   h1 {
@@ -44,9 +45,8 @@
     font-size: 40px;
   }
 
-  #logo {
+  /* #logo {
   background-color: #4aaaa5;
-  height: 100px;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
   font-size: 35px;
@@ -55,8 +55,23 @@
   color: whitesmoke;
   text-decoration: none;
   position: relative;
-
+} */
+#logo {
+  width: 200px;
+  float: left;
+  font-size: 20px;
+  margin-left: none;
+  background-color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  line-height: 100px;
+  font-weight: 200px;
+  color: whitesmoke;
 }
+
+
 /* NOTE: text decoration removes underlink from my name
 /* since a link was embedded in the same line as --& before--my id="log">Jessica R. La Torre</a> */
 
@@ -69,9 +84,8 @@ nav {
 
 nav a {
   text-decoration: none;
-  color:white; 
+  color:whitesmoke; 
   font-size: 20px;
-  color: black;
   width: 100px;
 }
 
@@ -98,6 +112,7 @@ p {
   height: 100px;
   width: 100%;
   clear: both;
+  background-color: darkgrey;
 }
 
 .menu {
@@ -115,7 +130,7 @@ p {
   width: 100%;
   height: 700px;
   margin-top: 90px;
-  padding-left: 140px;
+  padding-left: 50px;
   padding-top: 40px;
   clear: both;
   background-color: white;
@@ -211,7 +226,6 @@ p {
    padding-left: 12px;
    align-content: center;
    border-top: 20px;
-   border-color: red;
  }   
 
  .work {
@@ -224,7 +238,7 @@ p {
  }
 
  ul {
-   color:black;
+   color:white;
    line-height: 40px;
  }
 
@@ -259,11 +273,10 @@ footer {
 /* difference btwn formating Masterhead ID and box header class/ */
 #masterhead {
   padding-left: none;
-  background-color:lightgray;
+  background-color:darkgray;
   width: 100%;
 }
 .box-header{
-  width: 100%;
   color: white;
   clear: both;
 }
@@ -286,8 +299,7 @@ footer {
   margin-top: none;
   padding: 30px;
   margin-bottom: 10px;
-  margin-right: 10px;
-
+  margin-right: 30px;
 }
 
 h2 {
@@ -328,15 +340,20 @@ h2 {
   position: static;
  }
  #logo {
-   margin-left: 10px;
-   height: 100px;
- }
+  width: 200px;
+  float: left;
+  font-size: 20px;
+  margin-left: none;
+}
  #connect {
    background-color: lightslategray;
-}
+   position: relative;
+   bottom: 120px;
+ /* at 768px, trying to move my connect box up. After I learn this */
+ /* want to play with floating text, so there's no overlap. */
+ }
 
 nav {
-  position: relative;
   margin-right: 200px;
 }
 
@@ -344,7 +361,7 @@ nav a {
   margin: none;
   font-size: 15px;
   word-spacing: 2px;
-  color: black;
+  color:whitesmoke;
 }
 
 #masterhead {
@@ -372,6 +389,7 @@ h1 {
 #connect {
   margin-right: 120px;
   position: relative;
+  top: 140px;
   right: 130px;
  }
 p {
