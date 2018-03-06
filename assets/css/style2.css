@@ -43,7 +43,6 @@
   h1 {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-left: 10px;
     font-size: 40px;
   }
 
@@ -94,6 +93,8 @@ p {
  font-size: 20px;
  line-height: 35px;
  display: inline;
+ position: relative;
+ margin-right: 30px;
 }
 
 #masterhead {
@@ -132,12 +133,13 @@ p {
   float: left;
   width: 650px;
   height: 450px;
-  clear: both;
   padding-right: 60px;
+  clear: both;
+  
 }
 
 .bio-image {
-  padding-left: 20px;
+  padding-left: 5px;
   padding-right: 20px;
   float: left;
   left: 20px;
@@ -284,16 +286,18 @@ footer {
 }
 
 .menu {
-  margin-right: 135px;
+  margin-right: 10px;
 }
 
 #connect {
-  width: 220px;
+  float: right;
+  width: 200px;
   height: 120px;
-  margin-right: 150px;
   margin-top: none;
-  padding-top: 3px;
+  padding: 30px;
   margin-bottom: 10px;
+  margin-right: 10px;
+
 }
 
 h2 {
@@ -312,13 +316,16 @@ h2 {
 #overall-container {
   padding-left: none;
   clear: both;
+  padding-left: 100px;
+}
+
 }
 /* p {
-  working on strategies to get my text to wrap around my Connect sidebar
-
+  working on strategies to get my text to wrap around 
+  my Connect sidebar floats and clearing don't seem to work
 } */
 
-}
+
 /* ----next set of queries for tablet */
 /* @media screen and (width: 768px){
   body {
@@ -327,9 +334,68 @@ h2 {
 }
 
 /* net set of queries for mobile phone */
-/* @media screen and (width: 640px){
+@media screen and (width: 768px){
  #masterhead {
+   width: 100%;
   position: static;
  }
 
-}//s
+ #logo {
+   margin-left: 10px;
+ }
+
+ .menu {
+   width: 30%;
+   height: 50px;
+   float: right;
+   padding: 10px;
+  background-color: lightgray;
+  margin-right: 200px;
+  word-spacing: none;
+  text-align: center;
+  padding-top: 30px;
+  background-color: teal;
+}
+
+nav a {
+  margin: none;
+  font-size: 15px;
+  word-spacing: 2px;
+  color: #dddddd;
+}
+
+}
+#masterhead {
+  width: 800px;
+}
+
+h1 {
+  padding-top: 1px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.bio-image {
+  margin-left: 5px;
+}
+
+.main-container {
+  width: 500px;
+  height: 400px;
+  background-color: white;
+}
+#overall-container {
+  padding-top: 5px;
+  padding-left: 70px;
+  padding-right: 40px;
+}
+
+#connect {
+  margin-right: 120px;
+ }
+
+p {
+ position: relative;
+}
+
+}
